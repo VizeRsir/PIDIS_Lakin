@@ -1,0 +1,322 @@
+ЖКХ • Документооборот — Отчёт о нагрузочном тестировании
+Дата: 2026-11-10 12:03:15
+URL: http://127.0.0.1:8080
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /login.php
+Document Length:        4394 bytes
+
+Concurrency Level:      10
+Time taken for tests:   0.390 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      472500 bytes
+HTML transferred:       439400 bytes
+Requests per second:    256.39 [#/sec] (mean)
+Time per request:       39.003 [ms] (mean)
+Time per request:       3.900 [ms] (mean, across all concurrent requests)
+Transfer rate:          1183.06 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       15   22   4.7     20      33
+Processing:     9   14   5.5     12      38
+Waiting:        9   13   5.4     12      38
+Total:         24   35   7.1     32      58
+
+Percentage of the requests served within a certain time (ms)
+  50%     32
+  66%     37
+  75%     42
+  80%     42
+  90%     47
+  95%     49
+  98%     50
+  99%     58
+ 100%     58 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /captcha/get_puzzle.php
+Document Length:        165 bytes
+
+Concurrency Level:      10
+Time taken for tests:   0.273 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      50300 bytes
+HTML transferred:       16500 bytes
+Requests per second:    366.89 [#/sec] (mean)
+Time per request:       27.256 [ms] (mean)
+Time per request:       2.726 [ms] (mean, across all concurrent requests)
+Transfer rate:          180.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       12   18   4.0     18      27
+Processing:     3    7   2.9      7      13
+Waiting:        3    7   2.9      7      13
+Total:         19   25   3.7     24      40
+
+Percentage of the requests served within a certain time (ms)
+  50%     24
+  66%     25
+  75%     25
+  80%     25
+  90%     26
+  95%     35
+  98%     39
+  99%     40
+ 100%     40 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /captcha/check_puzzle.php
+Document Length:        41 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.235 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      19750 bytes
+HTML transferred:       2050 bytes
+Requests per second:    212.72 [#/sec] (mean)
+Time per request:       23.505 [ms] (mean)
+Time per request:       4.701 [ms] (mean, across all concurrent requests)
+Transfer rate:          82.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   18   2.0     18      21
+Processing:     2    4   1.1      4       6
+Waiting:        2    4   1.1      4       6
+Total:         13   22   1.9     22      27
+
+Percentage of the requests served within a certain time (ms)
+  50%     22
+  66%     22
+  75%     22
+  80%     22
+  90%     22
+  95%     25
+  98%     27
+  99%     27
+ 100%     27 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /captcha/check_puzzle.php
+Document Length:        251 bytes
+
+Concurrency Level:      10
+Time taken for tests:   0.250 seconds
+Complete requests:      100
+Failed requests:        0
+Non-2xx responses:      100
+Total transferred:      59600 bytes
+Total body sent:        26700
+HTML transferred:       25100 bytes
+Requests per second:    400.75 [#/sec] (mean)
+Time per request:       24.953 [ms] (mean)
+Time per request:       2.495 [ms] (mean, across all concurrent requests)
+Transfer rate:          233.25 [Kbytes/sec] received
+                        104.49 kb/s sent
+                        337.74 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   17   3.5     17      26
+Processing:     2    6   2.4      6      10
+Waiting:        2    6   2.4      6      10
+Total:         14   23   3.1     22      32
+
+Percentage of the requests served within a certain time (ms)
+  50%     22
+  66%     22
+  75%     23
+  80%     25
+  90%     29
+  95%     29
+  98%     31
+  99%     32
+ 100%     32 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /login.php
+Document Length:        4573 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.279 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      245200 bytes
+Total body sent:        10200
+HTML transferred:       228650 bytes
+Requests per second:    179.29 [#/sec] (mean)
+Time per request:       27.888 [ms] (mean)
+Time per request:       5.578 [ms] (mean, across all concurrent requests)
+Transfer rate:          858.63 [Kbytes/sec] received
+                        35.72 kb/s sent
+                        894.35 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   15   3.6     13      23
+Processing:     8   10   1.0     10      12
+Waiting:        8   10   1.0     10      12
+Total:         20   25   3.9     24      34
+
+Percentage of the requests served within a certain time (ms)
+  50%     24
+  66%     25
+  75%     26
+  80%     30
+  90%     31
+  95%     32
+  98%     34
+  99%     34
+ 100%     34 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /login.php
+Document Length:        4394 bytes
+
+Concurrency Level:      50
+Time taken for tests:   1.433 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      4725000 bytes
+HTML transferred:       4394000 bytes
+Requests per second:    697.76 [#/sec] (mean)
+Time per request:       71.658 [ms] (mean)
+Time per request:       1.433 [ms] (mean, across all concurrent requests)
+Transfer rate:          3219.64 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   34   7.9     33      64
+Processing:     9   36  10.6     34      74
+Waiting:        9   35  10.6     33      74
+Total:         21   69  12.9     67     129
+
+Percentage of the requests served within a certain time (ms)
+  50%     67
+  66%     72
+  75%     76
+  80%     79
+  90%     86
+  95%     94
+  98%    104
+  99%    113
+ 100%    129 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Finished 500 requests
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /captcha/get_puzzle.php
+Document Length:        165 bytes
+
+Concurrency Level:      30
+Time taken for tests:   0.619 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      251500 bytes
+HTML transferred:       82500 bytes
+Requests per second:    808.35 [#/sec] (mean)
+Time per request:       37.113 [ms] (mean)
+Time per request:       1.237 [ms] (mean, across all concurrent requests)
+Transfer rate:          397.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   23   5.0     22      41
+Processing:     3   12   5.6     12      31
+Waiting:        3   12   5.6     12      31
+Total:         14   35   8.2     34      57
+
+Percentage of the requests served within a certain time (ms)
+  50%     34
+  66%     38
+  75%     40
+  80%     43
+  90%     48
+  95%     50
+  98%     52
+  99%     55
+ 100%     57 (longest request)

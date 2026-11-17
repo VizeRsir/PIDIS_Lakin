@@ -1,0 +1,23 @@
+### 1. GET все заметки — ожидаем 200
+GET http://localhost:3000/notes_api/api/notes.php
+Accept: application/json
+
+### 2. GET с фильтром по пользователю — ожидаем 200
+GET http://localhost:3000/notes_api/api/notes.php?id_user=1
+Accept: application/json
+
+### 3. GET несуществующий пользователь — ожидаем 200 + []
+GET http://localhost:3000/notes_api/api/notes.php?id_user=999
+Accept: application/json
+
+### 4. Неверный параметр — ожидаем 400
+GET http://localhost:3000/notes_api/api/notes.php?id_user=abc
+Accept: application/json
+
+### 5. POST — ожидаем 405
+POST http://localhost:3000/notes_api/api/notes.php
+Content-Type: application/json
+
+### 6. Лимит больше максимума (обрезается до 1000) — 200
+GET http://localhost:3000/notes_api/api/notes.php?limit=99999
+Accept: application/json
